@@ -1,30 +1,41 @@
-# Secure Enterprise Network Design
+# 🔐 Secure Enterprise Network Design
 
-This project demonstrates the design and implementation of a secure enterprise network using Cisco Packet Tracer.
+This project demonstrates the design and implementation of a **secure enterprise network** using **Cisco Packet Tracer**, following real-world networking and security best practices.
 
-## Network Features
-- VLAN segmentation for departments
-- Inter-VLAN routing (Router-on-a-Stick)
-- Access Control Lists (ACLs)
-- DMZ implementation
-- Switch port security
+---
 
-## Security Rules Implemented
-- HR cannot access Finance
-- Only IT can access the DMZ
-- DMZ is isolated from internal VLANs
-- Unauthorized devices are blocked via port security
+## 🧠 Project Overview
+The network is designed to securely separate departments using VLANs, control traffic with ACLs, isolate public-facing resources in a DMZ, and protect switch ports from unauthorized access.
 
-## Tools Used
-- Cisco Packet Tracer
-- Cisco Router & Switch
-- VLANs, ACLs, DHCP
+---
 
-## Skills Demonstrated
-- Enterprise network design
-- Network security implementation
-- Routing & switching
-- Security best practices
+## 🏗️ Network Architecture
+- 🖧 VLAN-based departmental segmentation
+- 🔀 Inter-VLAN routing (Router-on-a-Stick)
+- 🧱 Access Control Lists (ACLs)
+- 🌐 DMZ (Demilitarized Zone)
+- 🔒 Switch Port Security
+- 📡 DHCP-based IP address allocation
 
-## Author
-Anandakumar Dilukshan
+---
+
+## 🔐 Security Rules Implemented
+- ❌ HR VLAN cannot access Finance VLAN
+- ✅ IT VLAN has access to all departments
+- 🔒 Only IT VLAN can access the DMZ
+- 🚫 DMZ cannot access internal networks
+- 🛑 Unauthorized devices are blocked at switch ports
+
+---
+
+## 🧰 Tools & Technologies
+- 🖥️ Cisco Packet Tracer
+- 📡 Cisco Router (2911)
+- 🔀 Cisco Switch (2960)
+- 🌐 VLANs & Trunking
+- 🛡️ ACLs & Port Security
+- ⚙️ DHCP Configuration
+
+---
+
+## 📁 Project Structure
